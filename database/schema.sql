@@ -1,0 +1,26 @@
+DROP DATABASE IF EXISTS task_db;
+
+CREATE DATABASE task_db;
+
+USE task_db;
+
+CREATE TABLE users (
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+name TEXT NULL,
+email TEXT NULL,
+password TEXT NULL,
+updated_at DATE,
+created_at DATE
+);
+
+CREATE TABLE tasks (
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+user_id INT NULL,
+title TEXT NULL,
+description TEXT NULL,
+status TINYINT,
+FOREIGN KEY ( user_id)
+REFERENCES  users(id)
+ON DELETE SET NULL
+);
+
