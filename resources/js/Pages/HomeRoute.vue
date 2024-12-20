@@ -21,7 +21,7 @@ import './style.css'
   <div class="container">
     <div style="margin-top: 80px;" class="jumbotron text-center">
       <h1 class="display-4">Task Manager<span role="img" aria-label="Memo">📝</span></h1>
-      <h4 class="mt-4">Manage tasks with NextJS</h4>
+      <h4 class="mt-4">Manage tasks with VueJS</h4>
     <router-link to="/tasks" class="btn btn-secondary btn-lg mt-4" > Let's manage some tasks </router-link>
     </div>
   </div>

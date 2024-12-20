@@ -113,7 +113,7 @@ then run again
  ### check logs
 
 run the following command:
-`less./storage/logs/laravel.log`
+`less ./storage/logs/laravel.log`
 
 
  ## Login
@@ -127,4 +127,4 @@ run the following command:
 ## Demo
 
 See a video of this app being used:
-[Click here](https://drive.google.com/file/d/1oMC5IEJNnQznOcHu5RNbhBIax2c56ToI/view?usp=sharing)
+[Click here](https://drive.google.com/file/d/1_TvHqn_vr-3dcv_ioEK-90vIDne-jks-/view?usp=sharing)
