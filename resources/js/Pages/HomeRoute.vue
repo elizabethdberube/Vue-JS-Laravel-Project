@@ -13,6 +13,8 @@ import './style.css'
        <a class="navbar-brand mx-2" href="/tasks">Task Manager <span role="img" aria-label="Memo">📝</span></a>
        
        <a class="navbar-brand mx-2" href="/inspire">Inspiration
+  
+
     </a>
   </nav>
 

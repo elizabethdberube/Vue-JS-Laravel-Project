@@ -12,13 +12,14 @@ import './cloud.css'
    
     <a class="navbar-brand mx-2" href="/tasks">Task Manager <span role="img" aria-label="Memo">📝</span></a>
 
-    <a class="navbar-brand mx-2" href="/home">Home</a>
+    <a class="navbar-brand mx-2" href="/">Home</a>
 
   </nav>
 
-  <div class="container mt-4 mb-4 ">
-<ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+  <div class="container mt-4 mb-4">
 
+<ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+ 
   <li><p data-weight="4"  value="Read" >Read</p></li>
   <li><p data-weight="2" value="Relate" >Relate</p></li>
   <li><p data-weight="5" href="/articles/?search_by_title=Story" value="Story" >Story</p></li>

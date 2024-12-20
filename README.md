@@ -15,6 +15,8 @@
 
 * [Login](#login)
 
+* [Demo](#demo)
+
 
 ## Setup
 
@@ -122,4 +124,7 @@ run the following command:
  password:
  password
 
+## Demo
 
+See a video of this app being used:
+[Click here](https://drive.google.com/file/d/1oMC5IEJNnQznOcHu5RNbhBIax2c56ToI/view?usp=sharing)

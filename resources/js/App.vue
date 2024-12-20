@@ -26,7 +26,6 @@ export default {
 };
 </script>
 
-
 <template>
     <router-view v-slot="{ Component, route }">
         <div :key="route.name">

@@ -9,8 +9,8 @@ class WelcomeController extends Controller
 
     public function welcome()
     {
-        $user = Auth::user();
+        
 
-        return view('welcome', ['user' => $user]);
+        return view('welcome');
     }
 }

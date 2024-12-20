@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use App\Http\Controllers\TasksController;
 use App\Http\Controllers\Auth\LogoutController;
@@ -29,8 +29,9 @@ Route::post('/logout', [App\Http\Controllers\Auth\LogoutController::class, 'dest
 Route::get('/{vue_capture?}', function () {
 
     $user = Auth::user();
+
 if($user){
-    return view('welcome', ['user' => $user]);
+    return view('welcome');
 }else{
     return view('/auth/login');
 }
